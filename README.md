@@ -13,14 +13,14 @@ AI-powered internship recommendation system using semantic matching and multi-fa
 ## Quick Start
 
 ### Setup
-\`\`\`bash
+```bash
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### Run locally
-\`\`\`bash
+```bash
 # Streamlit UI
 streamlit run app/streamlit_app.py
 
@@ -29,7 +29,7 @@ python api/main.py
 
 # Or Docker
 docker-compose up
-\`\`\`
+```
 
 ## Project Structure
 - `src/` — Recommendation algorithm
@@ -54,15 +54,9 @@ Coming soon at: https://internmatch.railway.app
 - FastAPI, PostgreSQL, Redis
 - Streamlit, React, Docker
 - Railway (deployment)
-\`\`\`
-
----
-
-## **Next: Initialize Git & Push**
-
-```bash
-# Add GitHub remote (create repo on github.com first)
-git remote add origin https://github.com/yourusername/internmatch.git
+```
+**Next: Initialize Git & Push**
+git remote add origin https://github.com/Omega-127/InternMatch.git
 git branch -M main
 git push -u origin main
 ```

@@ -114,16 +114,16 @@ def generate_students(n: int = 200) -> pd.DataFrame:
         cgpa = round(random.gauss(7.8, 0.9), 2) # Mean 7.8, std 0.9
         cgpa = max(5.0, min(10.0, cgpa))    # Clamp to valid range
 
-        batch_year = random.choice(years, weight=[0.15, 0.35, 0.15], k=1)[0]
+        batch_year = random.choices(years, weight=[0.15, 0.35, 0.15], k=1)[0]
 
         skills = sample_skills()
 
-        location = random.choice(location, weights=[0.30, 0.15, 0.15, 0.15, 0.10, 0.05, 0.05, 0.05], k=1)[0]
+        location = random.choice(locations, weights=[0.30, 0.15, 0.15, 0.15, 0.10, 0.05, 0.05, 0.05], k=1)[0]
 
         stip_min, stip_max = stipend_range(cgpa)
 
         students.append({
-            "students_id": i,
+            "student_id": i,
             "name": f"Student_{i}",
             "university": random.choice(universities),
             "degree": random.choice(degree),
@@ -138,4 +138,60 @@ def generate_students(n: int = 200) -> pd.DataFrame:
             "expected_stipend_max": stip_max
         })
 
-        return pd.DataFrame(students)
+    return pd.DataFrame(students)
+
+def validate(df: pd.DataFrame) -> bool:
+    issues = []
+
+    if df.isnull().any().any():
+        issues.append("Found null values")
+    if df['student_id'].nunique() != len(df):
+        issues.append("Duplicate student ID")
+    if(df['expected_stipend_min'] >= df['expected_stipend_max']).any():
+        issues.append("stipend_min >= stipend_max")
+    if(df['cgpa'] < 5.0 | df["cgpa"] > 10.0).any():
+        issues.append("CGPA out of range")
+
+    if issues:
+        for issue in issues:
+            print(issue)
+        return False
+    return True
+
+def main():
+    n = 200
+
+    print(f"Generating {n} student profiles...")
+
+    df = generate_students(n)
+
+    print("Running validation...")
+    if not validate(df):
+        print("Validation failed. Fix issues before proceeding...")
+        exit(1)
+
+    os.makedirs("data", exist_ok=True)
+    output_path = "data/students.csv"
+    df.to_csv(output_path, index=False)
+
+    print()
+    print("  STUDENT DATA GENERATED SUCCESSFULLY")
+    print(f"  Rows:            {len(df)}")
+    print(f"  Output:          {output_path}")
+    print(f"  Locations:       {df['location'].nunique()} unique")
+    print(f"  Universities:    {df['university'].nunique()} unique")
+    print(f"  Avg CGPA:        {df['cgpa'].mean():.2f}")
+    print(f"  Top skills:")
+
+    all_skills = [s for row in df['skills'] for s in row.split("|")]
+    top_skills = pd.Series(all_skills).value_counts().head(5)
+
+
+    for skill, count in top_skills.items():
+        print(f"{skill:<22} {count} students")
+
+    print()
+    print("Next: run scripts/scrape_internshala.py")
+
+if __name__ == "__main__":
+    main()

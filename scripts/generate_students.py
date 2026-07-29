@@ -114,11 +114,11 @@ def generate_students(n: int = 200) -> pd.DataFrame:
         cgpa = round(random.gauss(7.8, 0.9), 2) # Mean 7.8, std 0.9
         cgpa = max(5.0, min(10.0, cgpa))    # Clamp to valid range
 
-        batch_year = random.choices(years, weight=[0.15, 0.35, 0.15], k=1)[0]
+        batch_year = random.choices(years, weights=[0.15, 0.35, 0.35, 0.15], k=1)[0]
 
         skills = sample_skills()
 
-        location = random.choice(locations, weights=[0.30, 0.15, 0.15, 0.15, 0.10, 0.05, 0.05, 0.05], k=1)[0]
+        location = random.choices(locations, weights=[0.30, 0.15, 0.15, 0.15, 0.10, 0.05, 0.05, 0.05], k=1)[0]
 
         stip_min, stip_max = stipend_range(cgpa)
 
@@ -149,7 +149,7 @@ def validate(df: pd.DataFrame) -> bool:
         issues.append("Duplicate student ID")
     if(df['expected_stipend_min'] >= df['expected_stipend_max']).any():
         issues.append("stipend_min >= stipend_max")
-    if(df['cgpa'] < 5.0 | df["cgpa"] > 10.0).any():
+    if ((df['cgpa'] < 5.0) | (df['cgpa'] > 10.0)).any():
         issues.append("CGPA out of range")
 
     if issues:

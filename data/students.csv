@@ -1,0 +1,201 @@
+student_id,name,university,degree,batch_year,cgpa,skills,domain_interest,location,willing_to_relocate,internship_duration_months,expected_stipend_min,expected_stipend_max
+1,Student_1,IIT Bombay,MCA,2027,7.67,AWS|Node.js|TypeScript,fintech,Bangalore,False,2,40000,100000
+2,Student_2,Symbiosis Pune,B.Tech Computer Science,2026,7.64,Java|Python|SQL,SaaS,Bangalore,True,6,40000,100000
+3,Student_3,BITS Pilani,B.Tech Electronics and Telecommunication,2027,7.14,Git|MongoDB|Python|SQL,media,Hyderabad,False,3,40000,100000
+4,Student_4,NIT Trichy,B.Tech Information Technology,2027,6.89,Git|Javascript|TypeScript,fintech,Remote,False,2,30000,70000
+5,Student_5,DTU Delhi,B.Tech Information Technology,2027,7.28,Javascript|Node.js,infra,Pune,True,6,40000,100000
+6,Student_6,Amity University,B.Tech Information Technology,2027,8.44,FastAPI|Machine Learning|React|SQL,fintech,Delhi,True,3,50000,150000
+7,Student_7,COEP Pune,B.Tech Artificial Intelligence,2029,9.56,Docker|FastAPI|Java|Node.js|React,healthcare,Bangalore,False,3,60000,200000
+8,Student_8,COEP Pune,B.Tech Information Technology,2027,7.64,Javascript|Machine Learning|Python|SQL,SaaS,Pune,True,6,40000,100000
+9,Student_9,Manipal Institute of Technology,B.Tech Computer Science,2027,7.73,Javascript|Python|SQL,healthcare,Pune,True,3,40000,100000
+10,Student_10,Symbiosis Pune,B.Tech Artificial Intelligence,2027,7.27,Docker|TypeScript,healthcare,Bangalore,False,3,40000,100000
+11,Student_11,DTU Delhi,MCA,2026,8.77,Java|PostgreSQL|React,ecommerce,Bangalore,False,6,50000,150000
+12,Student_12,IIT Delhi,MCA,2027,6.94,FastAPI|Java|Machine Learning,infra,Remote,True,2,30000,70000
+13,Student_13,NIT Suratkal,B.Tech Data Science,2027,8.13,C++|PostgreSQL|Python|REST APIs|React,SaaS,Delhi,False,6,50000,150000
+14,Student_14,IIT Bombay,MCA,2027,7.4,Data Science|Machine Learning,ecommerce,Pune,False,2,40000,100000
+15,Student_15,SRM University,B.Tech Electronics and Telecommunication,2026,7.66,Docker|Git|Javascript|TypeScript,SaaS,Remote,True,6,40000,100000
+16,Student_16,SRM University,B.Tech Electronics and Telecommunication,2027,8.31,Java|REST APIs|SQL,SaaS,Bangalore,True,6,50000,150000
+17,Student_17,IIT Madras,M.Tech Computer Science,2029,7.72,Django|Javascript|Python|React,fintech,Bangalore,True,6,40000,100000
+18,Student_18,DTU Delhi,B.Tech Electronics and Telecommunication,2027,7.96,C++|Git,healthcare,Remote,False,6,40000,100000
+19,Student_19,SRM University,B.E. Computer Engineering,2028,8.36,Machine Learning|Node.js|React,media,kolkata,False,3,50000,150000
+20,Student_20,DTU Delhi,BCA,2029,8.75,Flutter|Git|Java|Python,fintech,Mumbai,True,2,50000,150000
+21,Student_21,Amity University,B.Tech Computer Science,2028,7.97,Docker|Javascript|Python,healthcare,Bangalore,True,2,40000,100000
+22,Student_22,IIIT Bangalore,BCA,2029,7.87,Git|MongoDB,healthcare,Delhi,True,6,40000,100000
+23,Student_23,IIT Madras,B.Tech Information Technology,2027,8.88,Docker|Java|MongoDB|Node.js|Python,fintech,Hyderabad,False,3,50000,150000
+24,Student_24,BITS Pilani,B.Tech Information Technology,2027,7.34,Git|Node.js|Python|React|SQL,fintech,Chennai,False,6,40000,100000
+25,Student_25,IIT Delhi,B.Tech Data Science,2027,6.85,MongoDB|REST APIs|SQL,healthcare,Delhi,False,3,30000,70000
+26,Student_26,Manipal Institute of Technology,MCA,2027,9.32,Java|Spring Boot,fintech,Mumbai,True,6,60000,200000
+27,Student_27,VIT Vellore,BCA,2029,9.51,AWS|Data Science|MongoDB,healthcare,Bangalore,False,2,60000,200000
+28,Student_28,IIIT Bangalore,BCA,2027,7.79,Docker|Machine Learning,ecommerce,Remote,False,6,40000,100000
+29,Student_29,IIIT Bangalore,B.E. Computer Engineering,2028,10.0,FastAPI|Java|Machine Learning|MongoDB|Python,fintech,Bangalore,True,6,60000,200000
+30,Student_30,DTU Delhi,MCA,2027,7.02,Machine Learning|React,healthcare,Delhi,True,6,40000,100000
+31,Student_31,VJTI Mumbai,M.Tech Computer Science,2028,8.31,C++|Django|REST APIs,healthcare,Mumbai,True,6,50000,150000
+32,Student_32,IIT Madras,B.Tech Artificial Intelligence,2026,8.08,AWS|Javascript|Python|React,healthcare,kolkata,False,3,50000,150000
+33,Student_33,Symbiosis Pune,M.Tech Computer Science,2027,8.68,Javascript|REST APIs,fintech,Bangalore,True,6,50000,150000
+34,Student_34,NIT Trichy,B.Tech Information Technology,2027,8.75,Git|Javascript|REST APIs|SQL,healthcare,Bangalore,False,3,50000,150000
+35,Student_35,DTU Delhi,B.Sc. Computer Science,2028,8.73,Git|Machine Learning,media,Pune,True,2,50000,150000
+36,Student_36,IIT Delhi,B.Sc. Computer Science,2027,9.23,REST APIs|React,ecommerce,Pune,True,6,60000,200000
+37,Student_37,VJTI Mumbai,B.Tech Computer Science,2029,7.04,FastAPI|Git|Java|Javascript|Python,fintech,Bangalore,False,3,40000,100000
+38,Student_38,COEP Pune,B.Sc. Computer Science,2026,8.95,Django|Java|Javascript|Machine Learning,healthcare,Hyderabad,False,6,50000,150000
+39,Student_39,Manipal Institute of Technology,B.Tech Artificial Intelligence,2026,7.48,Node.js|React|TypeScript,SaaS,Delhi,True,3,40000,100000
+40,Student_40,VJTI Mumbai,B.Tech Computer Science,2026,6.69,Machine Learning|MongoDB|Node.js|TypeScript,ecommerce,Mumbai,True,6,30000,70000
+41,Student_41,Amity University,B.Tech Electronics and Telecommunication,2028,7.8,C++|Machine Learning|Python|React|TypeScript,healthcare,Remote,True,2,40000,100000
+42,Student_42,VJTI Mumbai,B.Tech Artificial Intelligence,2029,8.22,Machine Learning|SQL,infra,Bangalore,True,3,50000,150000
+43,Student_43,IIT Madras,B.E. Computer Engineering,2027,8.56,Python|React,infra,Chennai,False,3,50000,150000
+44,Student_44,COEP Pune,B.E. Computer Engineering,2028,8.98,C++|Java|REST APIs,infra,Bangalore,False,3,50000,150000
+45,Student_45,Manipal Institute of Technology,MCA,2027,9.35,AWS|C++|Flutter|PostgreSQL|Spring Boot,ecommerce,Pune,True,2,60000,200000
+46,Student_46,IIIT Bangalore,B.Tech Computer Science,2029,6.03,C++|MongoDB|Node.js|SQL,fintech,Bangalore,False,3,30000,70000
+47,Student_47,Symbiosis Pune,B.E. Computer Engineering,2028,7.7,Machine Learning|SQL,ecommerce,Mumbai,True,6,40000,100000
+48,Student_48,IIT Bombay,B.Tech Artificial Intelligence,2027,7.03,Git|Java|React,SaaS,Mumbai,False,6,40000,100000
+49,Student_49,NIT Trichy,B.Tech Data Science,2027,8.63,Javascript|PostgreSQL|Python|SQL,media,Pune,False,6,50000,150000
+50,Student_50,NIT Suratkal,B.Tech Electronics and Telecommunication,2026,6.63,Docker|Javascript|Machine Learning|Python|SQL,SaaS,Pune,False,3,30000,70000
+51,Student_51,Symbiosis Pune,B.Tech Artificial Intelligence,2027,7.78,Django|Java|Node.js|REST APIs|TypeScript,infra,Hyderabad,False,3,40000,100000
+52,Student_52,SRM University,B.Tech Electronics and Telecommunication,2028,7.79,C++|Data Science|Git|PostgreSQL|Spring Boot,media,Hyderabad,True,3,40000,100000
+53,Student_53,IIT Madras,B.E. Computer Engineering,2027,6.53,C++|Java|REST APIs,healthcare,Pune,True,2,30000,70000
+54,Student_54,SRM University,B.Tech Information Technology,2027,7.68,Git|MongoDB|Node.js|REST APIs|SQL,infra,Pune,False,6,40000,100000
+55,Student_55,COEP Pune,B.Tech Computer Science,2027,6.53,Docker|Javascript|Python|REST APIs|SQL,fintech,Bangalore,False,2,30000,70000
+56,Student_56,IIT Madras,B.Tech Information Technology,2027,7.14,Java|PostgreSQL|Python|REST APIs|SQL,infra,Bangalore,True,3,40000,100000
+57,Student_57,Amity University,MCA,2028,6.48,Data Science|Javascript|PostgreSQL|Python|SQL,infra,Pune,False,2,30000,70000
+58,Student_58,SRM University,B.E. Computer Engineering,2028,5.48,AWS|C++|Javascript|MongoDB|React,media,Delhi,False,6,30000,70000
+59,Student_59,NIT Trichy,B.Tech Artificial Intelligence,2027,7.14,Data Science|Git|PostgreSQL|SQL,SaaS,Bangalore,True,2,40000,100000
+60,Student_60,Amity University,B.E. Computer Engineering,2027,7.86,C++|Java|Node.js|Spring Boot|TypeScript,fintech,Pune,False,3,40000,100000
+61,Student_61,SRM University,M.Tech Computer Science,2026,7.31,Data Science|Docker|Machine Learning|REST APIs|SQL,media,Mumbai,True,6,40000,100000
+62,Student_62,IIIT Bangalore,B.Tech Data Science,2027,8.68,Javascript|Spring Boot,infra,kolkata,True,3,50000,150000
+63,Student_63,SRM University,B.Tech Data Science,2026,7.98,MongoDB|Python|React|SQL,media,Pune,True,3,40000,100000
+64,Student_64,Symbiosis Pune,M.Tech Computer Science,2029,8.75,Javascript|TypeScript,media,kolkata,True,2,50000,150000
+65,Student_65,NIT Trichy,B.E. Computer Engineering,2027,7.5,REST APIs|TypeScript,infra,Bangalore,False,3,40000,100000
+66,Student_66,Manipal Institute of Technology,B.Tech Data Science,2028,7.42,FastAPI|Node.js|Python|REST APIs|TypeScript,ecommerce,Bangalore,True,3,40000,100000
+67,Student_67,IIT Bombay,B.Tech Computer Science,2029,8.91,Django|Git|React|TypeScript,fintech,Bangalore,True,2,50000,150000
+68,Student_68,VIT Vellore,B.Tech Information Technology,2028,7.94,Git|Javascript|React,SaaS,Bangalore,True,3,40000,100000
+69,Student_69,IIT Delhi,B.Sc. Computer Science,2027,7.32,Data Science|REST APIs,fintech,Hyderabad,True,3,40000,100000
+70,Student_70,Amity University,B.E. Computer Engineering,2028,6.34,Data Science|Flutter|Java|MongoDB|SQL,fintech,Mumbai,True,2,30000,70000
+71,Student_71,Symbiosis Pune,B.Tech Computer Science,2028,7.55,Java|Machine Learning,ecommerce,Hyderabad,False,6,40000,100000
+72,Student_72,NIT Suratkal,BCA,2027,7.08,AWS|Git|MongoDB|React,fintech,Bangalore,False,3,40000,100000
+73,Student_73,DTU Delhi,B.Sc. Computer Science,2028,6.69,Git|MongoDB|REST APIs|React|Spring Boot,SaaS,Bangalore,False,3,30000,70000
+74,Student_74,IIT Madras,B.Tech Information Technology,2027,6.53,Docker|MongoDB|REST APIs|SQL,ecommerce,Mumbai,False,2,30000,70000
+75,Student_75,Manipal Institute of Technology,B.Tech Artificial Intelligence,2028,7.8,Data Science|Java|Node.js|Python,healthcare,Bangalore,False,2,40000,100000
+76,Student_76,VJTI Mumbai,M.Tech Computer Science,2027,6.63,Machine Learning|React|SQL|Spring Boot,media,Mumbai,False,6,30000,70000
+77,Student_77,SRM University,B.E. Computer Engineering,2026,9.98,Data Science|Git|Java|Node.js|Python,media,Delhi,False,6,60000,200000
+78,Student_78,IIT Bombay,B.Sc. Computer Science,2028,7.94,Data Science|Docker|Javascript|Python|SQL,healthcare,Hyderabad,False,6,40000,100000
+79,Student_79,Amity University,MCA,2027,7.86,Flutter|Machine Learning|MongoDB|SQL,ecommerce,Mumbai,False,6,40000,100000
+80,Student_80,IIT Bombay,B.E. Computer Engineering,2027,9.13,C++|Docker|Machine Learning|React,ecommerce,Bangalore,True,6,60000,200000
+81,Student_81,IIIT Bangalore,M.Tech Computer Science,2027,6.31,FastAPI|Python|TypeScript,SaaS,Pune,False,2,30000,70000
+82,Student_82,IIT Delhi,B.Sc. Computer Science,2028,7.46,Django|Git|Javascript|MongoDB,fintech,Bangalore,True,3,40000,100000
+83,Student_83,SRM University,BCA,2027,8.09,C++|Data Science|Javascript,fintech,Pune,True,6,50000,150000
+84,Student_84,IIT Delhi,B.Tech Computer Science,2027,7.89,AWS|MongoDB|PostgreSQL|React|TypeScript,ecommerce,Mumbai,False,2,40000,100000
+85,Student_85,SRM University,M.Tech Computer Science,2026,8.2,Data Science|SQL,ecommerce,Bangalore,True,2,50000,150000
+86,Student_86,SRM University,M.Tech Computer Science,2026,6.98,AWS|C++|Django|Node.js|Python,healthcare,Pune,False,3,30000,70000
+87,Student_87,Symbiosis Pune,B.Tech Computer Science,2028,8.43,Git|Java|Machine Learning|MongoDB|Python,SaaS,Mumbai,True,2,50000,150000
+88,Student_88,IIT Delhi,B.E. Computer Engineering,2028,7.39,Java|Javascript|Machine Learning|Spring Boot,healthcare,Pune,True,2,40000,100000
+89,Student_89,IIIT Bangalore,B.Sc. Computer Science,2028,8.78,Django|FastAPI|Python|SQL,media,Bangalore,False,2,50000,150000
+90,Student_90,COEP Pune,M.Tech Computer Science,2028,7.82,Git|Machine Learning|PostgreSQL|SQL,media,Hyderabad,True,3,40000,100000
+91,Student_91,IIT Bombay,B.Tech Computer Science,2026,8.28,Javascript|PostgreSQL|Python|SQL,healthcare,Hyderabad,False,6,50000,150000
+92,Student_92,VIT Vellore,B.Sc. Computer Science,2028,8.22,Data Science|Django|SQL|TypeScript,media,Mumbai,False,3,50000,150000
+93,Student_93,Amity University,B.Tech Artificial Intelligence,2026,6.75,Data Science|Spring Boot,SaaS,Chennai,False,2,30000,70000
+94,Student_94,COEP Pune,B.Sc. Computer Science,2026,7.8,Django|TypeScript,SaaS,Remote,True,2,40000,100000
+95,Student_95,NIT Suratkal,BCA,2029,6.52,Javascript|REST APIs|TypeScript,fintech,Remote,False,3,30000,70000
+96,Student_96,Manipal Institute of Technology,B.Tech Electronics and Telecommunication,2027,8.04,AWS|Java|Javascript|Python,ecommerce,Pune,False,6,50000,150000
+97,Student_97,NIT Trichy,B.Sc. Computer Science,2027,6.47,Git|React,ecommerce,Delhi,True,3,30000,70000
+98,Student_98,DTU Delhi,BCA,2029,7.84,Git|Python,infra,Pune,True,2,40000,100000
+99,Student_99,IIT Madras,B.Sc. Computer Science,2027,6.55,Git|Java|MongoDB|React|SQL,SaaS,Hyderabad,True,3,30000,70000
+100,Student_100,COEP Pune,M.Tech Computer Science,2027,7.65,AWS|Docker|Git|Javascript|React,healthcare,Bangalore,True,3,40000,100000
+101,Student_101,IIT Bombay,B.Tech Electronics and Telecommunication,2026,6.72,Django|Flutter,infra,Delhi,False,6,30000,70000
+102,Student_102,VIT Vellore,B.E. Computer Engineering,2028,7.44,Django|Docker|Git|Node.js|REST APIs,infra,Hyderabad,True,3,40000,100000
+103,Student_103,IIIT Bangalore,B.Tech Data Science,2028,8.24,AWS|Java|REST APIs,ecommerce,Chennai,False,2,50000,150000
+104,Student_104,Symbiosis Pune,BCA,2027,8.93,Git|Machine Learning|REST APIs|React,healthcare,Hyderabad,False,6,50000,150000
+105,Student_105,NIT Trichy,B.E. Computer Engineering,2028,6.99,Django|Java|Python|REST APIs|React,media,Delhi,True,6,30000,70000
+106,Student_106,Amity University,BCA,2027,7.88,C++|Data Science|FastAPI|SQL|TypeScript,media,Bangalore,False,3,40000,100000
+107,Student_107,BITS Pilani,B.Tech Electronics and Telecommunication,2028,9.39,AWS|PostgreSQL|React,SaaS,Delhi,False,2,60000,200000
+108,Student_108,VJTI Mumbai,BCA,2029,7.68,Docker|Java|Machine Learning|Python|SQL,fintech,Bangalore,True,3,40000,100000
+109,Student_109,Amity University,B.Tech Data Science,2026,9.44,FastAPI|Java|Node.js|REST APIs,media,Mumbai,True,3,60000,200000
+110,Student_110,COEP Pune,BCA,2029,6.07,AWS|Docker|Java|Python|SQL,SaaS,Remote,True,6,30000,70000
+111,Student_111,NIT Suratkal,B.Tech Information Technology,2029,8.96,Git|MongoDB|Python,media,Pune,True,3,50000,150000
+112,Student_112,BITS Pilani,B.Tech Artificial Intelligence,2027,8.33,FastAPI|Flutter|Node.js|Python,fintech,kolkata,False,3,50000,150000
+113,Student_113,IIT Bombay,M.Tech Computer Science,2028,7.44,Flutter|Git|TypeScript,infra,Bangalore,True,3,40000,100000
+114,Student_114,COEP Pune,B.Sc. Computer Science,2029,8.16,AWS|Node.js|Python,infra,Bangalore,False,6,50000,150000
+115,Student_115,NIT Trichy,M.Tech Computer Science,2029,9.42,Data Science|Django|Docker,ecommerce,Bangalore,False,6,60000,200000
+116,Student_116,NIT Suratkal,BCA,2027,7.9,Java|Python|REST APIs|Spring Boot,fintech,Bangalore,True,3,40000,100000
+117,Student_117,Manipal Institute of Technology,B.Tech Data Science,2029,6.74,Java|MongoDB|Python|Spring Boot,ecommerce,Bangalore,True,6,30000,70000
+118,Student_118,Amity University,BCA,2029,7.29,AWS|Data Science,ecommerce,kolkata,True,6,40000,100000
+119,Student_119,Amity University,B.Tech Electronics and Telecommunication,2027,8.0,Git|Node.js|React|TypeScript,media,Pune,True,6,50000,150000
+120,Student_120,BITS Pilani,M.Tech Computer Science,2028,7.2,Java|Javascript|Python|TypeScript,ecommerce,Hyderabad,True,2,40000,100000
+121,Student_121,DTU Delhi,B.Tech Artificial Intelligence,2027,8.47,Flutter|Machine Learning|REST APIs,SaaS,Bangalore,False,2,50000,150000
+122,Student_122,IIIT Bangalore,B.Tech Artificial Intelligence,2027,7.37,Data Science|Machine Learning|Python|SQL|TypeScript,fintech,Remote,False,2,40000,100000
+123,Student_123,SRM University,MCA,2029,9.29,Data Science|FastAPI|MongoDB|REST APIs|SQL,ecommerce,Remote,True,3,60000,200000
+124,Student_124,COEP Pune,B.Sc. Computer Science,2026,9.61,Python|React,SaaS,Delhi,False,6,60000,200000
+125,Student_125,DTU Delhi,B.Tech Artificial Intelligence,2027,8.2,REST APIs|TypeScript,SaaS,Pune,True,6,50000,150000
+126,Student_126,IIIT Bangalore,B.Tech Data Science,2026,7.64,FastAPI|Javascript|React|SQL|Spring Boot,fintech,kolkata,True,2,40000,100000
+127,Student_127,DTU Delhi,B.Tech Electronics and Telecommunication,2027,8.52,Data Science|Node.js,infra,Bangalore,False,3,50000,150000
+128,Student_128,Amity University,B.Tech Electronics and Telecommunication,2028,7.55,Flutter|Machine Learning|MongoDB|Python|TypeScript,infra,Delhi,True,3,40000,100000
+129,Student_129,VIT Vellore,B.E. Computer Engineering,2027,6.21,Git|Javascript|PostgreSQL|React,ecommerce,Bangalore,True,6,30000,70000
+130,Student_130,IIIT Bangalore,B.E. Computer Engineering,2027,6.39,Git|MongoDB|REST APIs|TypeScript,fintech,Bangalore,False,2,30000,70000
+131,Student_131,NIT Trichy,B.E. Computer Engineering,2028,7.13,Django|SQL,healthcare,Bangalore,True,2,40000,100000
+132,Student_132,Manipal Institute of Technology,B.E. Computer Engineering,2028,6.7,Git|Python|REST APIs,ecommerce,Delhi,True,6,30000,70000
+133,Student_133,SRM University,B.Tech Electronics and Telecommunication,2026,9.58,Git|Node.js|Python,fintech,Delhi,True,2,60000,200000
+134,Student_134,BITS Pilani,B.Tech Electronics and Telecommunication,2026,7.83,Flutter|Java|SQL,ecommerce,Delhi,True,2,40000,100000
+135,Student_135,NIT Trichy,MCA,2028,7.74,Git|Node.js|React|Spring Boot|TypeScript,SaaS,Mumbai,True,3,40000,100000
+136,Student_136,VJTI Mumbai,MCA,2028,6.7,C++|Python,ecommerce,Pune,False,6,30000,70000
+137,Student_137,IIT Bombay,BCA,2027,8.11,Data Science|Flutter|Git|MongoDB|REST APIs,media,Mumbai,False,2,50000,150000
+138,Student_138,IIT Bombay,B.Tech Electronics and Telecommunication,2029,7.73,C++|FastAPI|Git|Java,ecommerce,Pune,False,3,40000,100000
+139,Student_139,Amity University,B.Tech Information Technology,2027,8.91,Javascript|Node.js|PostgreSQL|SQL|TypeScript,media,Bangalore,True,3,50000,150000
+140,Student_140,Manipal Institute of Technology,BCA,2027,7.76,Java|Machine Learning|PostgreSQL,infra,Mumbai,False,6,40000,100000
+141,Student_141,COEP Pune,BCA,2028,8.58,Data Science|Docker|Git|Machine Learning,fintech,Remote,True,2,50000,150000
+142,Student_142,NIT Trichy,B.Tech Electronics and Telecommunication,2026,8.33,Data Science|Git,SaaS,Pune,True,6,50000,150000
+143,Student_143,COEP Pune,B.Tech Data Science,2028,8.91,AWS|Django|Java|Python|SQL,media,Mumbai,True,3,50000,150000
+144,Student_144,DTU Delhi,B.E. Computer Engineering,2028,7.49,Java|Javascript|MongoDB|Python,healthcare,Bangalore,False,2,40000,100000
+145,Student_145,Symbiosis Pune,B.E. Computer Engineering,2028,8.28,Node.js|SQL,infra,Hyderabad,True,6,50000,150000
+146,Student_146,IIIT Bangalore,B.Sc. Computer Science,2029,7.12,Django|FastAPI|Node.js|REST APIs,ecommerce,Bangalore,False,2,40000,100000
+147,Student_147,COEP Pune,B.Tech Computer Science,2028,8.01,Docker|Machine Learning,fintech,Bangalore,True,3,50000,150000
+148,Student_148,IIIT Bangalore,B.Tech Artificial Intelligence,2027,8.25,Django|Git|SQL|TypeScript,SaaS,Bangalore,True,2,50000,150000
+149,Student_149,COEP Pune,B.Tech Data Science,2026,8.64,Java|REST APIs,infra,Bangalore,False,3,50000,150000
+150,Student_150,IIT Bombay,B.Sc. Computer Science,2027,9.05,C++|Spring Boot,media,Mumbai,False,6,60000,200000
+151,Student_151,IIIT Bangalore,B.E. Computer Engineering,2027,7.66,Flutter|Spring Boot,healthcare,Bangalore,False,3,40000,100000
+152,Student_152,NIT Suratkal,B.Tech Electronics and Telecommunication,2027,7.56,React|Spring Boot,healthcare,Delhi,False,6,40000,100000
+153,Student_153,Manipal Institute of Technology,B.Tech Computer Science,2028,7.5,C++|Java|Python|SQL,infra,Bangalore,True,3,40000,100000
+154,Student_154,Symbiosis Pune,B.Tech Data Science,2029,6.78,Java|Javascript|Node.js|SQL,media,Delhi,False,3,30000,70000
+155,Student_155,VJTI Mumbai,B.Tech Artificial Intelligence,2027,7.94,Javascript|PostgreSQL|Python|REST APIs|Spring Boot,fintech,Hyderabad,False,2,40000,100000
+156,Student_156,NIT Suratkal,B.Sc. Computer Science,2027,7.92,Data Science|Java|Javascript|Node.js|React,media,Delhi,False,2,40000,100000
+157,Student_157,IIT Madras,B.Tech Artificial Intelligence,2028,7.53,Machine Learning|Node.js,ecommerce,Delhi,True,2,40000,100000
+158,Student_158,Symbiosis Pune,B.Tech Electronics and Telecommunication,2026,8.27,Docker|PostgreSQL|Python|SQL,media,Bangalore,True,2,50000,150000
+159,Student_159,VJTI Mumbai,M.Tech Computer Science,2027,9.01,Git|MongoDB|Python|REST APIs|React,media,Pune,False,6,60000,200000
+160,Student_160,VIT Vellore,B.Sc. Computer Science,2027,7.42,AWS|Javascript|Node.js|PostgreSQL|Spring Boot,ecommerce,Bangalore,True,3,40000,100000
+161,Student_161,IIIT Bangalore,B.Tech Information Technology,2027,7.02,Node.js|Spring Boot,media,Mumbai,True,6,40000,100000
+162,Student_162,DTU Delhi,B.Tech Computer Science,2028,7.76,AWS|C++|MongoDB|Python|REST APIs,infra,Delhi,True,3,40000,100000
+163,Student_163,VJTI Mumbai,B.Tech Artificial Intelligence,2029,6.96,C++|FastAPI|Java|Machine Learning|React,media,Bangalore,True,6,30000,70000
+164,Student_164,VIT Vellore,BCA,2028,7.15,Node.js|Python,SaaS,Bangalore,True,3,40000,100000
+165,Student_165,BITS Pilani,B.Tech Artificial Intelligence,2027,7.29,Java|Javascript|REST APIs|React,fintech,Pune,False,2,40000,100000
+166,Student_166,Amity University,M.Tech Computer Science,2028,8.33,Docker|Machine Learning|PostgreSQL|Python|SQL,healthcare,Bangalore,False,2,50000,150000
+167,Student_167,Amity University,B.Tech Information Technology,2027,7.37,AWS|Data Science|FastAPI|Java|Machine Learning,ecommerce,Bangalore,False,6,40000,100000
+168,Student_168,Manipal Institute of Technology,MCA,2028,7.55,Node.js|React|SQL,fintech,Pune,False,6,40000,100000
+169,Student_169,SRM University,BCA,2027,7.25,Data Science|Flutter|Node.js,healthcare,Mumbai,True,2,40000,100000
+170,Student_170,IIT Bombay,MCA,2027,8.45,C++|Java|React|SQL,SaaS,Hyderabad,True,6,50000,150000
+171,Student_171,IIT Delhi,M.Tech Computer Science,2026,7.0,Data Science|Javascript|Python|REST APIs|React,healthcare,Bangalore,False,2,40000,100000
+172,Student_172,Symbiosis Pune,B.Sc. Computer Science,2027,9.11,Django|Flutter|Java,media,Remote,False,2,60000,200000
+173,Student_173,IIT Madras,B.Tech Artificial Intelligence,2028,7.04,C++|Django|Git|Java|TypeScript,media,kolkata,False,3,40000,100000
+174,Student_174,NIT Suratkal,B.Tech Electronics and Telecommunication,2028,7.64,AWS|Data Science|PostgreSQL|REST APIs|React,healthcare,Delhi,True,3,40000,100000
+175,Student_175,DTU Delhi,B.Tech Information Technology,2027,8.78,Javascript|React,ecommerce,Pune,True,2,50000,150000
+176,Student_176,IIT Bombay,B.E. Computer Engineering,2027,8.13,C++|FastAPI|Machine Learning,infra,Hyderabad,False,2,50000,150000
+177,Student_177,NIT Trichy,B.E. Computer Engineering,2027,7.02,Data Science|Java|React|SQL|Spring Boot,fintech,Remote,False,2,40000,100000
+178,Student_178,IIT Delhi,B.Tech Computer Science,2028,8.26,Java|Machine Learning|Node.js|Python,ecommerce,Hyderabad,False,6,50000,150000
+179,Student_179,BITS Pilani,B.Sc. Computer Science,2027,8.54,Flutter|Python,healthcare,kolkata,True,6,50000,150000
+180,Student_180,IIIT Bangalore,B.E. Computer Engineering,2029,6.47,AWS|C++|Git|PostgreSQL|React,ecommerce,Bangalore,True,2,30000,70000
+181,Student_181,VJTI Mumbai,BCA,2028,7.89,SQL|Spring Boot,SaaS,Bangalore,True,6,40000,100000
+182,Student_182,IIIT Bangalore,B.Tech Data Science,2028,9.08,Django|Node.js|REST APIs,fintech,Pune,False,2,60000,200000
+183,Student_183,DTU Delhi,MCA,2028,7.28,Git|Java|MongoDB|TypeScript,SaaS,Bangalore,True,3,40000,100000
+184,Student_184,NIT Trichy,B.Sc. Computer Science,2029,7.55,Javascript|TypeScript,media,Pune,True,3,40000,100000
+185,Student_185,Amity University,B.Tech Artificial Intelligence,2028,8.0,AWS|Python,healthcare,Hyderabad,True,3,50000,150000
+186,Student_186,COEP Pune,BCA,2028,7.0,Data Science|Git|Java,media,Hyderabad,False,6,40000,100000
+187,Student_187,IIT Madras,B.Tech Computer Science,2028,8.0,Docker|Git|Javascript|Machine Learning|SQL,healthcare,Bangalore,True,3,50000,150000
+188,Student_188,DTU Delhi,BCA,2029,8.24,Django|FastAPI|Git|Node.js|React,ecommerce,Remote,True,6,50000,150000
+189,Student_189,SRM University,B.Tech Artificial Intelligence,2028,8.11,AWS|Machine Learning|React|Spring Boot,infra,Bangalore,False,6,50000,150000
+190,Student_190,IIT Delhi,BCA,2027,8.59,C++|Django|Machine Learning|REST APIs|SQL,media,Mumbai,False,3,50000,150000
+191,Student_191,Symbiosis Pune,B.Tech Electronics and Telecommunication,2028,8.77,Git|Java|Node.js|SQL|TypeScript,SaaS,Bangalore,False,3,50000,150000
+192,Student_192,IIIT Bangalore,BCA,2026,7.3,Docker|Machine Learning|REST APIs|SQL,SaaS,Pune,False,2,40000,100000
+193,Student_193,NIT Suratkal,B.Sc. Computer Science,2026,7.49,AWS|C++|Java|React,media,Pune,True,2,40000,100000
+194,Student_194,SRM University,B.Tech Electronics and Telecommunication,2028,7.02,AWS|Data Science|Git|Node.js|Python,fintech,Mumbai,True,6,40000,100000
+195,Student_195,NIT Trichy,B.Tech Artificial Intelligence,2026,7.38,Git|Java|Javascript,infra,Hyderabad,True,6,40000,100000
+196,Student_196,NIT Trichy,BCA,2027,6.93,Django|Docker|Java|Javascript|MongoDB,fintech,kolkata,True,6,30000,70000
+197,Student_197,IIT Delhi,BCA,2027,7.28,MongoDB|SQL,SaaS,Bangalore,False,6,40000,100000
+198,Student_198,IIT Madras,M.Tech Computer Science,2026,8.38,C++|Machine Learning|MongoDB|Node.js,ecommerce,Pune,False,2,50000,150000
+199,Student_199,SRM University,B.Tech Artificial Intelligence,2027,9.06,Data Science|Django|Javascript|REST APIs|Spring Boot,media,Remote,False,6,60000,200000
+200,Student_200,Manipal Institute of Technology,B.Tech Electronics and Telecommunication,2026,9.03,Data Science|Java|Machine Learning|TypeScript,media,Chennai,True,3,60000,200000

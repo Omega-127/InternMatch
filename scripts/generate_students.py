@@ -28,3 +28,56 @@ skills_pool = {
     "TypeScript": 0.30,
     "Flutter": 0.20
 }
+
+domains = [
+    "fintech",
+    "healthcare",
+    "ecommerce",
+    "infra",
+    "SaaS",
+    "media"
+]
+
+locations = [
+    "Bangalore",
+    "Mumbai",
+    "Delhi",
+    "Pune",
+    "Hyderabad",
+    "Chennai",
+    "kolkata",
+    "Remote"
+]
+
+universities = [
+    "BITS Pilani",
+    "IIT Bombay",
+    "IIT Delhi",
+    "IIT Madras",
+    "IIIT Bangalore",
+    "NIT Trichy",
+    "NIT Suratkal",
+    "VIT Vellore",
+    "DTU Delhi",
+    "Symbiosis Pune",
+    "COEP Pune",
+    "Amity University",
+    "SRM University",
+    "Manipal Institute of Technology",
+    "VJTI Mumbai"
+]
+
+degree = [
+    "B.Tech Computer Science",
+    "B.Tech Information Technology",
+    "B.Tech Electronics and Telecommunication",
+    "B.E. Computer Engineering",
+    "B.Sc. Computer Science",
+    "B.Tech Artificial Intelligence",
+    "B.Tech Data Science",
+    "BCA",
+    "MCA",
+    "M.Tech Computer Science"
+]
+
+years = [2026, 2027, 2028, 2029]

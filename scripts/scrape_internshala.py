@@ -51,3 +51,17 @@ known_skills = [
     "Pandas", "NumPy", "Excel", "Power BI", "Tableau",
 ]
 
+def poilite_delay():
+    delay = random.uniform(2.0, 4,0)
+    time.sleep(delay)
+
+def extract_skills_from_text(text: str) -> list[str]:
+    found = []
+    text_lower = text.lower()
+    for skill in known_skills:
+        if skill.lower() in text_lower:
+            found.append(skill)
+
+    return found
+
+

@@ -65,3 +65,9 @@ def extract_skills_from_text(text: str) -> list[str]:
     return found
 
 
+def infer_domain(text: str) -> str:
+    text_lower = text.lower()
+    for keyword, domain in domain_map.items():
+        if keyword in text_lower:
+            return domain
+    return "SaaS"
